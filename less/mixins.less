@@ -21,5 +21,14 @@
     color: @color;
     width: @width;
     font-size: 1.6rem;
+    padding: 2%;
+    border: 1px solid @btn-color; 
+    border-radius: .5rem;
     .flexbox();
+
+    &:hover {
+        background-color: @color;
+        color: @btn-color;
+        cursor: pointer;
+    }
 }
