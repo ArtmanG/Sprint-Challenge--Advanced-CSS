@@ -6,6 +6,10 @@
     padding: .5% 0 0;
     .fontSize();
 
+    @media @phone {
+        padding: 2% 0 0;
+    }
+
     h1 {
         .flexbox();
     }
@@ -13,10 +17,16 @@
 
     nav {
         .flexbox();
-        width: 30%;
+        width: 45%;
         justify-content: space-between;
+        padding: 0 -5%;
         margin: 1% auto .7%;
         .fontSize();
+
+        @media @phone {
+            width: 80%;
+            margin: 3% auto 2%;
+        }
 
         a{
             text-decoration: none;

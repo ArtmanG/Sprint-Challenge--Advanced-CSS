@@ -168,8 +168,18 @@ p {
 .navbar h1 {
   font-size: 3rem;
 }
+@media (max-width: 500px) {
+  .navbar h1 {
+    font-size: 3.5rem;
+  }
+}
 .navbar a {
   font-size: 1.6rem;
+}
+@media (max-width: 500px) {
+  .navbar {
+    padding: 2% 0 0;
+  }
 }
 .navbar h1 {
   display: flex;
@@ -180,15 +190,27 @@ p {
   display: flex;
   justify-content: center;
   align-content: center;
-  width: 30%;
+  width: 45%;
   justify-content: space-between;
+  padding: 0 -5%;
   margin: 1% auto 0.7%;
 }
 .navbar nav h1 {
   font-size: 3rem;
 }
+@media (max-width: 500px) {
+  .navbar nav h1 {
+    font-size: 3.5rem;
+  }
+}
 .navbar nav a {
   font-size: 1.6rem;
+}
+@media (max-width: 500px) {
+  .navbar nav {
+    width: 80%;
+    margin: 3% auto 2%;
+  }
 }
 .navbar nav a {
   text-decoration: none;
