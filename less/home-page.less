@@ -1,10 +1,11 @@
 // Home Content
 
 .home {
+
   .header-img img{
     width: 100%;
     border-radius: 5px;
-    margin-top: 10%;
+    margin-top: 9rem;
   }
 
   .intro {
@@ -42,6 +43,10 @@
 
       &:hover {
         transform: scale(2);
+
+        @media @phone {
+          transform: scale(1);
+        }
       }
 
       @media @phone {
@@ -129,6 +134,10 @@
 
         &:hover {
           transform: scale(1.5);
+
+          @media @phone {
+            transform: scale(1);
+          }
         }
       }
     }

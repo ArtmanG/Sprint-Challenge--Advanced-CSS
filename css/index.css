@@ -233,7 +233,7 @@ footer {
 .home .header-img img {
   width: 100%;
   border-radius: 5px;
-  margin-top: 10%;
+  margin-top: 9rem;
 }
 .home .intro h2 {
   padding: 15px;
@@ -263,6 +263,11 @@ footer {
 }
 .home .space-images img:hover {
   transform: scale(2);
+}
+@media (max-width: 500px) {
+  .home .space-images img:hover {
+    transform: scale(1);
+  }
 }
 @media (max-width: 500px) {
   .home .space-images img {
@@ -367,4 +372,9 @@ footer {
 }
 .home .walk .walk-img img:hover {
   transform: scale(1.5);
+}
+@media (max-width: 500px) {
+  .home .walk .walk-img img:hover {
+    transform: scale(1);
+  }
 }
