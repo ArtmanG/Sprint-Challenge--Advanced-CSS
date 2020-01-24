@@ -145,9 +145,6 @@ h5 {
   font-family: 'Russo One', sans-serif;
   color: #23293B;
 }
-h1 {
-  font-size: 3rem;
-}
 h2 {
   font-size: 3.2rem;
 }
@@ -169,20 +166,33 @@ p {
   padding: 0.5% 0 0;
 }
 .navbar h1 {
+  font-size: 3rem;
+}
+.navbar a {
+  font-size: 1.6rem;
+}
+.navbar h1 {
   display: flex;
   justify-content: center;
+  align-content: center;
 }
 .navbar nav {
   display: flex;
   justify-content: center;
+  align-content: center;
   width: 30%;
   justify-content: space-between;
   margin: 1% auto 0.7%;
 }
+.navbar nav h1 {
+  font-size: 3rem;
+}
+.navbar nav a {
+  font-size: 1.6rem;
+}
 .navbar nav a {
   text-decoration: none;
   color: #5E6164;
-  font-size: 1.6rem;
 }
 footer {
   color: #22283B;
@@ -193,6 +203,9 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.home .header-img img {
+  border-radius: 5px;
 }
 .home .intro h2 {
   padding: 15px;

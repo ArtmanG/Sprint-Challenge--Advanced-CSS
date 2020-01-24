@@ -3,4 +3,23 @@
 .flexbox() {
     display: flex;
     justify-content: center;
+    align-content: center;
+}
+
+.fontSize() {
+    h1 {
+        font-size: 3rem;
+    }
+    a {
+        font-size: 1.6rem;
+    }
+    
+}
+
+.custom-btn(@btn-color, @color, @width) {
+    background-color: @btn-color;
+    color: @color;
+    width: @width;
+    font-size: 1.6rem;
+    .flexbox();
 }
