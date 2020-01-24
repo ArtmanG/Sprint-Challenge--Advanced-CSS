@@ -168,6 +168,7 @@ p {
   top: 0;
   width: 100%;
   opacity: 75%;
+  z-index: 1;
 }
 .navbar h1 {
   font-size: 3rem;
