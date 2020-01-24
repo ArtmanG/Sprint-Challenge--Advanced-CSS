@@ -34,13 +34,26 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+    Adaptive is designing the website at certain sizes, desktop, tablet, phone. A Responsive website looks good no matter the size of the screen.
+
+
 2. Describe what it means to be mobile first vs desktop first.
+
+    Mobile first is designing, starting with the smallest (a mobile) and then going up, tablet, and desktop. Desktop is starting the design at desktop and working your way down to mobile.
+
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+    It makes it so 1rem = 10px. 
+
 4. How would you describe preprocessing to someone new to CSS?
 
+    It makes CSS easier to organize and use. Like in HTML, with preprocessing you can nest your rules inside their parents. You also have the ability to make variables, which you can you to save you font-color and only have to change it once instead of every place it is typed out in normal CSS. There are also mixins, which are similar to class rules, but anyone can use them. 
+
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+    Parametric Mixins are my favorite. Honestly nesting, I get that it is for specificity, but sometimes it just trips me up on what selector a child, or grandchild should have, especially if I only need rules on the parent and the grandchild. I know it is something to just keep doing and it will become second nature. 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -59,9 +72,9 @@ Follow these steps to set up your project:
  
 Follow these steps for completing your project.
 
-- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
-- [ ] Add your project manager as a reviewer on the pull-request
-- [ ] Your project manager will count the project as complete by merging the branch back into master.
+- [x] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
+- [x] Add your project manager as a reviewer on the pull-request
+- [x] Your project manager will count the project as complete by merging the branch back into master.
  
 
 ### Preprocessor Set up
@@ -118,7 +131,7 @@ _You will know everything is working properly when you see the styles enabled fo
 
 * [x] [Review the provided home mobile design file](design-files/home-mobile.png). Match your mobile styling the best you can using the design file.
 
-* [ ] Push your changes and create a pull request if you haven't already.
+* [x] Push your changes and create a pull request if you haven't already.
 
 In your solution, it is essential that you follow best practices and produce clean and professional results. Schedule time to review, refine, and assess your work and perform basic professional polishing including spell-checking and grammar-checking on your work. It is better to submit a challenge that meets MVP than one that attempts too much and does not.
 
