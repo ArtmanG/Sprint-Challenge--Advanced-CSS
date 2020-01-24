@@ -254,6 +254,10 @@ footer {
   margin: 2rem 2.5%;
   border-radius: 20px;
   height: 100%;
+  transition: 0.2s;
+}
+.home .space-images img:hover {
+  transform: scale(2);
 }
 @media (max-width: 500px) {
   .home .space-images img {
@@ -354,4 +358,8 @@ footer {
   width: 100%;
   height: auto;
   border-radius: 10px;
+  transition: 0.2s;
+}
+.home .walk .walk-img img:hover {
+  transform: scale(1.5);
 }
