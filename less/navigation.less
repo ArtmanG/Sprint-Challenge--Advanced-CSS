@@ -1,1 +1,44 @@
 // Navigation code here
+
+.navbar {
+    background-color: @nav-bg;
+    border: 1px solid @nav-border;
+    padding: .5% 0 0;
+    .fontSize();
+    //for fixed navbar
+    position: fixed;
+    top: 0;
+    width: 100%;
+    opacity: 75%;
+    z-index: 1;
+
+    @media @phone {
+        padding: 2% 0 0;
+    }
+
+    h1 {
+        .flexbox();
+    }
+    
+
+    nav {
+        .flexbox();
+        width: 45%;
+        justify-content: space-between;
+        padding: 0 -5%;
+        margin: 1% auto .7%;
+        .fontSize();
+
+        @media @phone {
+            width: 75%;
+            margin: 3% auto 2%;
+        }
+
+        a{
+            text-decoration: none;
+            color: @main-font-color;
+        }
+        
+    }
+}
+
